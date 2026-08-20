@@ -1,6 +1,6 @@
 # On the Finiteness and Modular Constraints of Limit Cycles in Generalized Subcritical Collatz Mappings
 
-**Author:** [Your Name / GitHub Handle]  
+**Author:** [Jimmy Nakatsu / jimmynakatsu]  
 **Date:** August 2026  
 **MSC Classification:** 11B83, 37E15, 11D61, 37C25  
 **Keywords:** Generalized Collatz Problem, Limit Cycles, Diophantine Equations, Modular Congruences, Piecewise Affine Dynamics
