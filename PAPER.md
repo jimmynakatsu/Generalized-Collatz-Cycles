@@ -122,9 +122,6 @@ $$\mathcal{N}_{\text{cycles}} \le \lfloor M_{\max} \rfloor < \infty$$
   $$\sum_{i=1}^{N_c} |\mathcal{C}_i| \le |S| = \lfloor M_{\max} \rfloor$$
 
 $$\implies N_c \le \lfloor M_{\max} \rfloor < \infty \quad \blacksquare$$
-Therefore:
-
-$$\mathcal{N}_{\text{cycles}} \le \lfloor M_{\max} \rfloor < \infty \quad \blacksquare$$
 
 ---
 
