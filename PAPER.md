@@ -19,8 +19,8 @@ Let $m \in \mathbb{Z}_{\ge 2}$ denote the division base modulus and $k \in \math
 Let $T: \mathbb{Z}^+ \to \mathbb{Z}^+$ be the generalized single-valued deterministic map:
 
 $$T(x) = \begin{cases} 
-\dfrac{x}{m}, & \text{if } x \equiv 0 \pmod m \\[10pt] 
-\dfrac{A x + c(x)}{m^{v(x)}}, & \text{if } x \equiv r \not\equiv 0 \pmod m 
+\displaystyle \frac{x}{m}, & \text{if } x \equiv 0 \pmod m \\ 
+\displaystyle \frac{A x + c(x)}{m^{v(x)}}, & \text{if } x \equiv r \not\equiv 0 \pmod m 
 \end{cases}$$
 
 where:
