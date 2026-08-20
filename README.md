@@ -9,7 +9,10 @@ We investigate the periodic orbit structure of generalized affine Collatz mappin
 
 Let $m \in \mathbb{Z}_{\ge 2}$ and $k \in \mathbb{Z}^+$. Define the piecewise affine map $T: \mathbb{Z}^+ \to \mathbb{Z}^+$:
 
-$$T(x) = \begin{cases} \dfrac{x}{m}, & \text{if } x \equiv 0 \pmod m \\[8pt] \dfrac{A x + c(r)}{m^{v(x)}}, & \text{if } x \equiv r \not\equiv 0 \pmod m \end{cases}$$
+$$T(x) = \begin{cases} 
+\frac{x}{m}, & \text{if } x \equiv 0 \pmod m \\ 
+\frac{A x + c(x)}{m^{v(x)}}, & \text{if } x \equiv r \not\equiv 0 \pmod m 
+\end{cases}$$
 
 where:
 * $A = m + k$ is the multiplier.
