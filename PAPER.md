@@ -117,7 +117,7 @@ $$\mathcal{N}_{\text{cycles}} \le \lfloor M_{\max} \rfloor < \infty$$
 2. **Compact Integer Domain:** The set of admissible cycle vertices is a subset of the finite discrete domain:
    $$S = \{1, 2, 3, \dots, \lfloor M_{\max} \rfloor\}, \quad |S| = \lfloor M_{\max} \rfloor$$
 3. **Deterministic Functional Graph:** The mapping $T: S \to S$ is a deterministic function. The state transition graph $G = (S, E)$ with directed edges $(u, T(u))$ has an out-degree of exactly 1 for every vertex $u \in S$.
-4. **Graph-Theoretic Cycle Bound:** In any finite functional directed graph with $|S| = N$, distinct periodic cycles are disjoint directed simple circuits. Since each cycle requires at least one unique vertex and vertices cannot be shared across disjoint cycles:
+4. **Graph-Theoretic Cycle Bound:** In any finite functional directed graph with $|S| = N$, distinct periodic cycles are disjoint directed simple circuits. Since each cycle requires at least one unique vertex and vertices cannot be shared across disjoint cycles: 
    $$\sum_{i=1}^{\mathcal{N}_{\text{cycles}}} \text{Length}(\mathcal{C}_i) \le |S| = \lfloor M_{\max} \rfloor$$
    Therefore:
    $$\mathcal{N}_{\text{cycles}} \le \lfloor M_{\max} \rfloor < \infty \quad \blacksquare$$
