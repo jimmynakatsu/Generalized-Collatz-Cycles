@@ -119,7 +119,7 @@ $$\mathcal{N}_{\text{cycles}} \le \lfloor M_{\max} \rfloor < \infty$$
 3. **Deterministic Functional Graph:** The mapping $T: S \to S$ is a deterministic function. The state transition graph $G = (S, E)$ with directed edges $(u, T(u))$ has an out-degree of exactly 1 for every vertex $u \in S$.
 4. **Graph-Theoretic Cycle Bound:** In any finite functional directed graph with $|S| = N$, distinct periodic cycles are disjoint directed simple circuits. Since each cycle requires at least one unique vertex and vertices cannot be shared across disjoint cycles:
 
-   $$\sum_{i=1}^{N_{\text{cyc}}} |\mathcal{C}_i| \le |S| = \lfloor M_{\max} \rfloor$$
+   $$\sum_{i=1}^{N_c} |\mathcal{C}_i| \le |S| = \lfloor M_{\max} \rfloor$$
 
 Therefore:
 
